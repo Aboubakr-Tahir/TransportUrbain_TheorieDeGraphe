@@ -6,15 +6,16 @@ Projet universitaire pour modéliser un réseau de transport urbain avec Neo4j, 
 
 ## Structure du projet
 
-- `stations.csv` : Dataset des stations (nœuds).
-- `connections.csv` : Dataset des connexions (relations).
-- `import_transport_data.py` : Script Python pour importer les données dans Neo4j.
+- `data/stations.csv` : Dataset des stations (nœuds).
+- `data/connections.csv` : Dataset des connexions (relations).
+- `project.ipynb` : Notebook Jupyter contenant les scripts d'importation Neo4j et de modélisation NetworkX.
 
 ## Instructions pour utiliser le projet
 
-1. Clonez ce dépôt : `git clone https://github.com/votreusername/MiniProjet6-TransportUrbain.git`
+1. Clonez ce dépôt : `git clone https://github.com/Aboubakr-Tahir/TransportUrbain_TheorieDeGraphe.git`
 2. Installez Neo4j Desktop sur votre machine (https://neo4j.com/download).
 3. Créez une base de données Neo4j nommée "transporturbain".
-4. Installez la bibliothèque Python `neo4j` : `pip install neo4j`.
-5. Mettez à jour le mot de passe dans `import_transport_data.py` avec votre mot de passe Neo4j.
-6. Exécutez le script : `python import_transport_data.py`.
+4. Installez les bibliothèques Python requises : `pip install neo4j networkx matplotlib numpy pandas python-louvain seaborn jupyter`.
+5. Mettez à jour le mot de passe dans `project.ipynb` avec votre mot de passe Neo4j.
+6. Lancez Jupyter Notebook : `jupyter notebook`
+7. Ouvrez `project.ipynb` et exécutez les cellules dans l'ordre.
